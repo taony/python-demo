@@ -8,13 +8,11 @@
 字符串，列表或元组对象都可用于创建迭代器：
 '''
 
-list=[1,2,3,4,5];
-it=iter(list);
-
+list = [1, 2, 3, 4, 5];
+it = iter(list);
+print(it.next());
 print(it.next());
 
-print(it.next());
-
-
-
-
+it2 = iter(list);
+for x in it2:
+    print x;
