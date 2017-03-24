@@ -1,6 +1,6 @@
-a,b=0,1
+# -*- encoding:utf-8 -*-
+a, b = 0, 1
 
-while b<1000:
+while b < 1000:
     print(b);
-    a,b=b,a+b;
-
+    a, b = b, a + b;
