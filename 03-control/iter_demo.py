@@ -10,9 +10,9 @@
 
 list = [1, 2, 3, 4, 5];
 it = iter(list);
-print(it.next());
-print(it.next());
+print(it.__next__());
+print(it.__next__());
 
 it2 = iter(list);
 for x in it2:
-    print x;
+    print(x,end=',');

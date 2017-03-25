@@ -3,6 +3,6 @@
 names=["lily","lucy","lilei","hanmeimei"];
 
 for x in names:
-    print x;
+    print(x)
 else:
-    print ("names数组中不包含内容！");
+    print ('names数组中不包含内容！');
