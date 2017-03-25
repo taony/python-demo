@@ -16,10 +16,22 @@ print(list1);
 #2、list.extend(L)	通过添加指定列表的所有元素来扩充列表，相当于 a[len(a):] = L。
 list2=[0,1,2,3,4]
 list2.extend(list1);
-print ('list.extend:',list2);
+print ('2、list.extend(L)',list2);
 
 #3、list.insert(i, x)	在指定位置插入一个元素。第一个参数是准备插入到其前面的那个元素的索引，
 # 例如 a.insert(0, x) 会插入到整个列表之前，而 a.insert(len(a), x) 相当于 a.append(x) 。
 list3=["a","b","c"]
 list3.insert(0,"d");
-print("list.insert:",list3);
+print("3、list.insert(i, x)",list3);
+
+#4、list.remove(x)	删除列表中值为 x 的第一个元素。如果没有这样的元素，就会返回一个错误。
+ls4=[1,2,3,4];
+ls4.remove(1);
+print("4、list.remove(x)",ls4);
+
+#5、list.pop([i])	从列表的指定位置删除元素，并将其返回。
+# 如果没有指定索引，a.pop()返回最后一个元素。元素随即从列表中被删除。
+# （方法中 i 两边的方括号表示这个参数是可选的，而不是要求你输入一对方括号，你会经常在 Python 库参考手册中遇到这样的标记。）
+ls5=[0,1,2,3,4,5]
+ls5.pop(0);
+print("5、list.pop([i])",ls5);
