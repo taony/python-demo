@@ -20,7 +20,7 @@ print('Hello,Python!');
 
 a=b=c=1;
 
-print a+b+c;
+print (a + b + c)
 
 item_one, item_two, item_three = 1, 2, 3;
 
