@@ -7,3 +7,23 @@
 一对大括号创建一个空的字典：{}。
 '''
 
+import re
+import urllib.request
+
+
+def getHtml(url):
+    page = urllib.request.urlopen(url)
+    html = page.read()
+    return html
+
+
+def getImg(html):
+    reg = r'src="(.+?\.jpg)" pic_ext'
+    imgre = re.compile(reg)
+    imglist = re.findall(imgre, html)
+    return imglist
+
+
+html = getHtml("http://tieba.baidu.com/p/2460150866")
+
+print (getImg(html))
