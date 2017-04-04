@@ -12,8 +12,16 @@ hello='hello';
 print(str(hello));
 print(repr(hello));
 
-print (hello.rjust(10, '0'));
+
+'''
+rjust:靠右补齐
+ljust:靠左补齐
+center:居中补齐
+'''
+print (hello.rjust(20, 'r'));
+
+print (hello.ljust(20, 'l'));
+
+print (hello.center(20, 'c'));
 
 
-for x in range(1, 11):
-    print(repr(x).rjust(2), repr(x * x).rjust(3), end=' ')
