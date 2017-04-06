@@ -18,10 +18,10 @@ rjust:靠右补齐
 ljust:靠左补齐
 center:居中补齐
 '''
-print (hello.rjust(20, 'r'));
+print(hello.rjust(20, 'r'));
 
-print (hello.ljust(20, 'l'));
+print(hello.ljust(20, 'l'));
 
-print (hello.center(20, 'c'));
+print(hello.center(20, 'c'));
 
 
