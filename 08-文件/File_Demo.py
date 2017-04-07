@@ -4,11 +4,12 @@ f = open("file.txt","w");
 print("文件名为: ", f.name);
 
 for x in range(1,10):
-    f.write(x);
+    f.write(str(x)+"\n");
 
 f.write("Hello World");
 f.write("\n")
 
+print(f.tell());
 
 '''
 1、fileno() 方法返回一个整型的文件描述符(file descriptor FD 整型)，可用于底层操作系统的 I/O 操作。
