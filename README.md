@@ -1,6 +1,6 @@
 # DevNotes-Python-Demo
 
-01-HelloPython
+01：HelloPython
 
 02：基本数据类型
 
