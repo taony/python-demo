@@ -8,3 +8,4 @@ class Person:
 per = Person();
 
 print(per.name);
+print(per.sex);
