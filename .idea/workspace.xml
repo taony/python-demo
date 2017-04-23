@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccb0765f-aab1-42cc-af05-e62215ca470b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10-标准库/Lib_Demo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -596,13 +595,6 @@
       <option name="presentableId" value="Default" />
       <updated>1488552325418</updated>
     </task>
-    <task id="LOCAL-00001" summary="Hello">
-      <created>1488554677771</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1488554677771</updated>
-    </task>
     <task id="LOCAL-00002" summary="Hello">
       <created>1488556199921</created>
       <option name="number" value="00002" />
@@ -939,7 +931,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492962543273</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="标准库">
+      <created>1492962629987</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1492962629989</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -988,7 +987,8 @@
     <MESSAGE value="list" />
     <MESSAGE value="dic" />
     <MESSAGE value="moudle" />
-    <option name="LAST_COMMIT_MESSAGE" value="moudle" />
+    <MESSAGE value="标准库" />
+    <option name="LAST_COMMIT_MESSAGE" value="标准库" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
