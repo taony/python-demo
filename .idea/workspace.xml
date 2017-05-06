@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ccb0765f-aab1-42cc-af05-e62215ca470b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/11-多线程/thread_demo.py" afterPath="$PROJECT_DIR$/11-多线程/thread_demo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -657,13 +656,6 @@
       <option name="presentableId" value="Default" />
       <updated>1488552325418</updated>
     </task>
-    <task id="LOCAL-00012" summary="commit">
-      <created>1490370988326</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1490370988326</updated>
-    </task>
     <task id="LOCAL-00013" summary="commit">
       <created>1490371680323</created>
       <option name="number" value="00013" />
@@ -1000,7 +992,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494086314714</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="标准库">
+      <created>1494086412937</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1494086412937</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TestHistory">
