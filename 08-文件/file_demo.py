@@ -6,6 +6,7 @@ print("文件名为: ", f.name);
 for x in range(1,10):
     f.write(str(x)+"\n");
 
+
 f.write("Hello World");
 f.write("\n")
 
@@ -30,4 +31,5 @@ f.flush();
 
 # 关闭文件
 f.close();
+
 
