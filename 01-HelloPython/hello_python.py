@@ -37,6 +37,8 @@ total = ['item_one', 'item_two', 'item_three',
 
 print(total);
 
-# 同一行显示多条语句
+#同一行显示多条语句
 
 import sys; x = 'runoob'; sys.stdout.write(x + '\n')
+
+
